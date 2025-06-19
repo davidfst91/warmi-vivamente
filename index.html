@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Warmi VIVAMENTE</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <h1>💛 Warmi VIVAMENTE</h1>
+    <section id="frase">
+      <p id="frase-motivadora">Cargando frase...</p>
+      <button onclick="nuevaFrase()">Otra frase</button>
+    </section>
+
+    <section id="mensaje-propio">
+      <h2>📝 Escribe un mensaje positivo para ti:</h2>
+      <textarea placeholder="Hoy me recuerdo que..."></textarea>
+    </section>
+
+    <section id="respiracion">
+      <h2>🌬️ Respiración consciente</h2>
+      <p>Sigue el ritmo...</p>
+      <div id="respira-circulo"></div>
+    </section>
+
+    <section id="calendario">
+      <h2>📆 Calendario emocional</h2>
+      <input type="date" />
+      <select>
+        <option>Elige tu emoción</option>
+        <option>😊 Alegría</option>
+        <option>😢 Tristeza</option>
+        <option>😨 Miedo</option>
+        <option>😡 Ira</option>
+        <option>😲 Sorpresa</option>
+      </select>
+      <textarea placeholder="Actividades para hoy..."></textarea>
+      <p style="color:red">⚠️ Este calendario no se guarda. ¡Tómale captura si deseas conservarlo!</p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
